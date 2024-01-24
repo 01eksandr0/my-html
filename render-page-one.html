@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./render-page-one.css">
-</head>
-<body>
-    <section>
-        
-        
-        <div class="container"></div></section>
-</body>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./render-page-one.css" />
+  </head>
+  <body>
+    <section class="render-page-one">
+      <div class="container">
+        <h2 class="render-page-one-title">Exercises</h2>
+        <ul class="render-page-one-list-btn">
+          <li>
+            <button class="render-page-one-btn render-page-one-btn-active">
+              Muscles
+            </button>
+          </li>
+          <li><button class="render-page-one-btn">Body&nbsp;parts</button></li>
+          <li><button class="render-page-one-btn">Equipment</button></li>
+        </ul>
+        <ul class="render-page-one-list"></ul>
+        <ul class="render-btn-list-pagination">
+          <li>
+            <button
+              class="render-pagination-btn render-pagination-btn-active"
+              type="button"
+            >
+              1
+            </button>
+          </li>
+          <li>
+            <button class="render-pagination-btn" type="button">2</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
